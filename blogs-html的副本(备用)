@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1,
+            shrink-to-fit=no">
+        <meta name="description" content="Astro - Astrology HTML5 Boostrap website Template">
+
+        <title>博客</title>
+
+        <!-- Favicon -->
+        
+
+        <!-- All CSS files -->
+        <link rel="stylesheet" href="static/css/bootstrap.min.css">
+        <link rel="stylesheet" href="static/css/font-awesome.css">
+        <link rel="stylesheet" href="static/css/slick.css">
+        <link rel="stylesheet" href="static/css/slick-theme.css">
+        <link rel="stylesheet" href="static/css/sal.css">
+        <link rel="stylesheet" href="static/css/app.css">
+    </head>
+
+    <body>
+        <!-- Preloader -->
+        <div id="preloader">
+            <div class="three-body">
+                <div class="three-body__dot"></div>
+                <div class="three-body__dot"></div>
+                <div class="three-body__dot"></div>
+            </div>  
+        </div>
+        
+        <!-- Back To Top Start -->
+        <a href="#main-wrapper" id="backto-top" class="back-to-top">
+            <i class="fas fa-angle-up"></i>
+        </a>
+        <!-- Main Wrapper Start -->
+        <div id="main-wrapper" class="main-wrapper overflow-hidden">
+
+            <!-- Header Area Start -->
+            <header class="header st-1">
+                <div class="container">
+                    <nav class="navbar navbar-expand-xl align-items-xl-center align-items-start p-0">
+                        <div class="col-xl-3 ">
+                            <a class="navbar-brand" href="index.html"><img alt="" src="static/picture/logo.png"></a>
+                        </div>
+                        <div class="col-xl-9 text-end">
+                            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                                <i class="fas fa-bars"></i>
+                            </button>
+                            <div class="collapse navbar-collapse justify-content-end text-start" id="mynavbar">
+                                <ul class="navbar-nav mainmenu align-items-xl-center m-0">
+                                    <li class="menu-item-has-children"><a href="index.html">主页</a></li>
+                                    <li class="menu-item-has-children"><a href="daily-forecast.html">公告</a></li>
+                                    <li class="menu-item-has-children"><a href="javascript:void(0);" class="active">页</a>
+                                        <ul class="submenu">
+                                            <li class="menu-item"><a href="services.html">服务</a></li>
+                                            <li class="menu-item"><a href="" class="active">博客</a></li>
+                                            <li class="menu-item"><a href="blog-detail.html">博客详情</a></li>
+                                            <li class="menu-item"><a href="horoscope-detail.html">数术简介</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item-has-children"><a href="contact.html">联系我们</a></li>
+                                    <li class="menu-item-has-children p-0"><a href="booking.html" class="light-btn active">文章</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                    </nav>
+                </div>
+            </header>
+            <!-- Header Area end -->
+
+            <!-- Banner Area start -->
+            <section class="inner-banner">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-7">
+                            <div class="content">
+                                <h2 class="fs-80 "><b class="color-light">阅读 </b>我们的博客</h2>
+                                <div class="col-xl-8 col-lg-10 col-sm-11 ms-58">
+                                    <p class="fw-5 fs-19 ">公众号过审的和没过审的都在这里</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 text-center">
+                            <img src="static/picture/astrology-circle.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Banner Area end -->
+
+            <!-- blog Area start -->
+            <div class="blog bg pt-50 pb-26">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 offset-lg-2">
+                            <form action="./blogs.html" class="mb-50">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" id="search" name="search" required="" placeholder="坏了的搜索栏">
+                                    <button type="submit"><i class="fal fa-search"></i></button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <form class="card-body tab-content">
+                            <div class="tab-pane active" id="today">
+                                <div class="row">
+                                    <div class="col-xl-6">
+                                        <div class="blog-item">
+                                            <div class="img-block">
+                                                <img src="static/picture/b-1.png" alt="">
+                                            </div>
+                                            <div class="content-block">
+                                                <h6 class="date">日期</h6>
+                                                <a href="blog-detail.html" class="title">我是题目</a>
+                                                <p>我是简介</p>
+                                                <a href="blog-detail.html" class="light-btn">阅读</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <div class="blog-item">
+                                            <div class="img-block">
+                                                <img src="static/picture/b-2.png" alt="">
+                                            </div>
+                                            <div class="content-block">
+                                                <h6 class="date">日期</h6>
+                                                <a href="blog-detail.html" class="title">我是题目</a>
+                                                <p>我是简介</p>
+                                                <a href="blog-detail.html" class="light-btn">阅读</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <div class="blog-item">
+                                            <div class="img-block">
+                                                <img src="static/picture/b-3.png" alt="">
+                                            </div>
+                                            <div class="content-block">
+                                                <h6 class="date">日期</h6>
+                                                <a href="blog-detail.html" class="title">我是题目</a>
+                                                <p>我是简介</p>
+                                                <a href="blog-detail.html" class="light-btn">阅读</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <div class="blog-item">
+                                            <div class="img-block">
+                                                <img src="static/picture/b-4.png" alt="">
+                                            </div>
+                                            <div class="content-block">
+                                                <h6 class="date">日期</h6>
+                                                <a href="blog-detail.html" class="title">我是题目</a>
+                                                <p>我是简介</p>
+                                                <a href="blog-detail.html" class="light-btn">阅读</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <div class="blog-item">
+                                            <div class="img-block">
+                                                <img src="static/picture/b-5.png" alt="">
+                                            </div>
+                                            <div class="content-block">
+                                                <h6 class="date">日期</h6>
+                                                <a href="blog-detail.html" class="title">我是题目</a>
+                                                <p>我是简介</p>
+                                                <a href="blog-detail.html" class="light-btn">阅读</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <div class="blog-item">
+                                            <div class="img-block">
+                                                <img src="static/picture/b-6.png" alt="">
+                                            </div>
+                                            <div class="content-block">
+                                                <h6 class="date">日期</h6>
+                                                <a href="blog-detail.html" class="title">我是题目</a>
+                                                <p>我是简介</p>
+                                                <a href="blog-detail.html" class="light-btn">阅读</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="week">
+                                <div class="row">
+                                    <div class="col-xl-6">
+                                        <div class="blog-item">
+                                            <div class="img-block">
+                                                <img src="static/picture/b-3.png" alt="">
+                                            </div>
+                                            <div class="content-block">
+                                                <h6 class="date">日期</h6>
+                                                <a href="blog-detail.html" class="title">我是题目</a>
+                                                <p>我是简介</p>
+                                                <a href="blog-detail.html" class="light-btn">阅读</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <div class="blog-item">
+                                            <div class="img-block">
+                                                <img src="static/picture/b-4.png" alt="">
+                                            </div>
+                                            <div class="content-block">
+                                                <h6 class="date">日期</h6>
+                                                <a href="blog-detail.html" class="title">我是题目</a>
+                                                <p>我是简介</p>
+                                                <a href="blog-detail.html" class="light-btn">阅读</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="month">
+                                <div class="row">
+                                    <div class="col-xl-6">
+                                        <div class="blog-item">
+                                            <div class="img-block">
+                                                <img src="static/picture/b-5.png" alt="">
+                                            </div>
+                                            <div class="content-block">
+                                                <h6 class="date">日期</h6>
+                                                <a href="blog-detail.html" class="title">我是题目</a>
+                                                <p>我是简介</p>
+                                                <a href="blog-detail.html" class="light-btn">阅读</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <div class="blog-item">
+                                            <div class="img-block">
+                                                <img src="static/picture/b-6.png" alt="">
+                                            </div>
+                                            <div class="content-block">
+                                                <h6 class="date">日期</h6>
+                                                <a href="blog-detail.html" class="title">我是题目</a>
+                                                <p>我是简介</p>
+                                                <a href="blog-detail.html" class="light-btn">阅读</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <div class="blog-item">
+                                            <div class="img-block">
+                                                <img src="static/picture/b-3.png" alt="">
+                                            </div>
+                                            <div class="content-block">
+                                                <h6 class="date">日期</h6>
+                                                <a href="blog-detail.html" class="title">我是题目</a>
+                                                <p>我是简介</p>
+                                                <a href="blog-detail.html" class="light-btn">阅读</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <div class="blog-item">
+                                            <div class="img-block">
+                                                <img src="static/picture/b-4.png" alt="">
+                                            </div>
+                                            <div class="content-block">
+                                                <h6 class="date">日期</h6>
+                                                <a href="blog-detail.html" class="title">我是题目</a>
+                                                <p>我是简介</p>
+                                                <a href="blog-detail.html" class="light-btn">阅读</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="year">
+                                <div class="row">
+                                    <div class="col-xl-6">
+                                        <div class="blog-item">
+                                            <div class="img-block">
+                                                <img src="static/picture/b-6.png" alt="">
+                                            </div>
+                                            <div class="content-block">
+                                                <h6 class="date">日期</h6>
+                                                <a href="blog-detail.html" class="title">我是题目</a>
+                                                <p>我是简介</p>
+                                                <a href="blog-detail.html" class="light-btn">阅读</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <div class="blog-item">
+                                            <div class="img-block">
+                                                <img src="static/picture/b-3.png" alt="">
+                                            </div>
+                                            <div class="content-block">
+                                                <h6 class="date">日期</h6>
+                                                <a href="blog-detail.html" class="title">我是题目</a>
+                                                <p>我是简介</p>
+                                                <a href="blog-detail.html" class="light-btn">阅读</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <div class="pagination-wrape">
+                                    <ul class="pagination">
+                                        <li class="page-item"><a href="" class="page-link arrow" aria-label="next"><i class="far fa-chevron-left"></i></a></li> 
+                                        <li class="page-item"><a class="page-link current" href="">1</a></li>
+                                        <li class="page-item"><a class="page-link" href="">2</a></li>
+                                        <li class="page-item"><a class="page-link" href="">3</a></li>
+                                        <li class="page-item"><a href="" class="page-link arrow" aria-label="next"><i class="far fa-chevron-right"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- blog Area end -->
+
+
+        </div>
+            <!-- Jquery Js -->
+            <script src="static/js/jquery-3.6.3.min.js"></script>
+            <script src="static/js/bootstrap.min.js"></script>
+            <script src="static/js/slick.min.js"></script>
+            <script src="static/js/jquery-appear.js"></script>
+            <script src="static/js/jquery-validator.js"></script>
+            <!-- Site Scripts -->
+            <script src="static/js/app.js"></script>
+    </body>
+
+</html>

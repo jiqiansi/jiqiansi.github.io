@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1,
+            shrink-to-fit=no">
+        <meta name="description" content="Astro - Astrology HTML5 Boostrap website Template">
+
+        <title>博客详情</title>
+
+        <!-- Favicon -->
+        
+
+        <!-- All CSS files -->
+        <link rel="stylesheet" href="static/css/bootstrap.min.css">
+        <link rel="stylesheet" href="static/css/font-awesome.css">
+        <link rel="stylesheet" href="static/css/slick.css">
+        <link rel="stylesheet" href="static/css/slick-theme.css">
+        <link rel="stylesheet" href="static/css/sal.css">
+        <link rel="stylesheet" href="static/css/app.css">
+    </head>
+
+    <body>
+        <!-- Preloader -->
+        <div id="preloader">
+            <div class="three-body">
+                <div class="three-body__dot"></div>
+                <div class="three-body__dot"></div>
+                <div class="three-body__dot"></div>
+            </div>  
+        </div>
+        
+        <!-- Back To Top Start -->
+        <a href="#main-wrapper" id="backto-top" class="back-to-top">
+            <i class="fas fa-angle-up"></i>
+        </a>
+        <!-- Main Wrapper Start -->
+        <div id="main-wrapper" class="main-wrapper overflow-hidden">
+
+            <!-- Header Area Start -->
+            <header class="header st-1">
+                <div class="container">
+                    <nav class="navbar navbar-expand-xl align-items-xl-center align-items-start p-0">
+                        <div class="col-xl-3 ">
+                            <a class="navbar-brand" href="index.html"><img alt="" src="static/picture/logo.png"></a>
+                        </div>
+                        <div class="col-xl-9 text-end">
+                            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                                <i class="fas fa-bars"></i>
+                            </button>
+                            <div class="collapse navbar-collapse justify-content-end text-start" id="mynavbar">
+                                <ul class="navbar-nav mainmenu align-items-xl-center m-0">
+                                    <li class="menu-item-has-children"><a href="index.html">主页</a></li>
+                                    <li class="menu-item-has-children"><a href="daily-forecast.html">公告</a></li>
+                                    <li class="menu-item-has-children"><a href="javascript:void(0);" class="active">页</a>
+                                        <ul class="submenu">
+                                            <li class="menu-item"><a href="services.html">服务</a></li>
+                                            <li class="menu-item"><a href="blogs.html">博客</a></li>
+                                            <li class="menu-item"><a href="" class="active">博客详情</a></li>
+                                            <li class="menu-item"><a href="horoscope-detail.html">数术简介</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item-has-children"><a href="contact.html">联系我们</a></li>
+                                    <li class="menu-item-has-children p-0"><a href="booking.html" class="light-btn active">文章</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                    </nav>
+                </div>
+            </header>
+            <!-- Header Area end -->
+
+            <!-- Banner Area start -->
+            <section class="inner-banner">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-7">
+                            <div class="content">
+                                <h2 class="fs-80 "><b class="color-light">博客</b>详情</h2>
+                                <div class="col-xl-8 col-lg-10 col-sm-11 ms-58">
+                                    <p class="fw-5 fs-19 ">这是置顶的一篇博客文章</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 text-center">
+                            <img src="static/picture/astrology-circle.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Banner Area end -->
+
+            <!-- blog Area start -->
+            <div class="blog-detail bg pt-50 pb-26">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-8">
+                            <div class="detail-row">
+                                <div class="author">
+                                    <img src="static/picture/auther.png" alt="">
+                                    <div>
+                                        <h6>发布人</h6>
+                                        <h6 class="name">人名</h6>
+                                    </div>
+                                </div>
+                                <div class="publish">
+                                    <h6>发布日期</h6>
+                                    <h6 class="date">日期</h6>
+                                </div>
+                                <div class="tags">
+                                    <ul>
+                                        <li>#我是标签啦</li>
+                                        <li>#我是标签</li>
+                                        <li>#什么标签</li>
+                                        <li>#不道啥标签</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <h2 class="blog-title">我是大标题</h2>
+                                <p>嘿，老登</p>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="title">小标题</div>
+                                        <p>吃了吗老登？</p>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <img src="static/picture/blog-detail-1.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="title">小标题2</div>
+                                <p>今天天气不错</p>
+                                <div class="row">
+                                    <div class="col-lg-8 offset-lg-2">
+                                        <h4 class="quote">小3</h4>
+                                    </div>
+                                </div>
+                                <p>什么？谁</p>
+                                <img src="static/picture/blog-detail-2.png" alt="">
+                                <p>啊，是作者</p>
+                            </div>
+                        </div>
+
+
+        </div>
+            <!-- Jquery Js -->
+            <script src="static/js/jquery-3.6.3.min.js"></script>
+            <script src="static/js/bootstrap.min.js"></script>
+            <script src="static/js/slick.min.js"></script>
+            <script src="static/js/jquery-appear.js"></script>
+            <script src="static/js/jquery-validator.js"></script>
+            <!-- Site Scripts -->
+            <script src="static/js/app.js"></script>
+    </body>
+
+</html>
