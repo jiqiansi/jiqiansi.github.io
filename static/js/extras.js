@@ -27,7 +27,7 @@
     function isArticle() {
       // 文章详情 / 最新动态详情 路径
       var h = location.hash || '';
-      return /#\/user\/blog\/details\//.test(h) || /#\/user\/new\/main/.test(h);
+      return /#\/user\/blog\/details\//.test(h) || /#\/user\/new\/details\//.test(h);
     }
 
     function tick() {
