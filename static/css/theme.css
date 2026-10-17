@@ -43,6 +43,12 @@ a {
   box-shadow: 0 8px 24px 0 rgba(0, 0, 0, 0.12) !important;
   transform: translateY(-2px) !important;
 }
+/* 列表卡片默认 hover 上浮（不要求组件加 shadow="hover"） */
+.main-content .el-card:hover,
+.sidebar .el-card:hover {
+  box-shadow: 0 8px 24px 0 rgba(0, 0, 0, 0.12) !important;
+  transform: translateY(-2px) !important;
+}
 .el-card__header {
   border-bottom: 1px solid #f0f2f5 !important;
   font-weight: 600 !important;
@@ -65,6 +71,12 @@ a {
   padding: 30px 0 30px 0 !important;
   margin: 0 auto !important;
   min-height: 800px !important;
+}
+
+/* hero banner 柔和下投影，与浮起卡片过渡更自然 */
+.page-header {
+  position: relative;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.12) !important;
 }
 
 /* 让 hero banner 之上的白色浮起卡片更精致 */
@@ -188,9 +200,35 @@ a {
   word-break: break-word !important;
 }
 
+/* ---------- 搜索框统一 ---------- */
+.main-content .el-input__inner {
+  border-radius: 20px !important;
+}
+.main-content .el-col[style*="text-align: center"] .el-input__inner {
+  border-radius: 20px !important;
+}
+
+/* ---------- 头像圆角柔和 ---------- */
+.main-content img[src*="avatars"],
+img[style*="border-radius:5px"] {
+  border-radius: 8px !important;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12) !important;
+}
+
 /* ---------- 空态 ---------- */
 .el-card font[style*="color:#dddddd"] {
   color: #b0b8c1 !important;
+}
+.el-card .el-empty__description,
+.main-content font[style*="dddddd"],
+.sidebar font[style*="dddddd"] {
+  color: #b0b8c1 !important;
+  font-size: 0.95rem !important;
+}
+
+/* 列表项之间的呼吸感 */
+.main-content .el-row .el-col .el-card {
+  margin-bottom: 14px !important;
 }
 
 /* ---------- 顶部阅读进度条 ---------- */
