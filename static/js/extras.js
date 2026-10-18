@@ -22,6 +22,8 @@
   function buildTOC() {
     var body = document.querySelector('.markdown-body');
     if (!body || body.getAttribute('data-toc') === '1') return;
+    // 源码已在详情页渲染侧栏目录卡(.toc-card),避免双目录,改用浮层 TOC 只留给动态页
+    if (document.querySelector('.toc-card')) return;
     var hs = body.querySelectorAll('h1, h2, h3');
     if (hs.length < 2) return;
 
